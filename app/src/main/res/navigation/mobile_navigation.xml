@@ -13,18 +13,18 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.ui.uiapplication.ui.dashboard.DashboardFragment"
+        android:name="com.ui.uiapplication.ui.dashboard.MatchFragment"
         android:label="@string/title_match"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_match" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.ui.uiapplication.ui.notifications.NotificationsFragment"
+        android:name="com.ui.uiapplication.ui.notifications.AttentionFragment"
         android:label="@string/title_attention"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_attention" />
     <fragment
         android:id="@+id/navigation_my"
         android:name="com.ui.uiapplication.ui.my.MyFragment"
         android:label="@string/title_my"
-        tools:layout="@layout/fragment_notifications" />
+        tools:layout="@layout/fragment_attention" />
 </navigation>
